@@ -1,0 +1,54 @@
+{
+  "title": "Disassembly of Progressive Cavity Pump",
+  "overview": "This work instruction provides step-by-step guidelines for disassembling a Progressive Cavity Pump.",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Remove the set plug for the drive pin",
+      "description": "Loosen the bolt and remove the set plug from the housing to access the drive pin.",
+      "frame_index": -1
+    },
+    {
+      "number": 2,
+      "title": "Remove the hold down plug and drive pin",
+      "description": "Screw out the hold down plug, go to the other side, remove the alignment tool, and lightly tap on the drive pin.",
+      "frame_index": -1
+    },
+    {
+      "number": 3,
+      "title": "Remove the cap screws",
+      "description": "Use a 3/8-inch drive ratchet with a 3/4-inch socket to remove the cap screws and the cap.",
+      "frame_index": -1
+    },
+    {
+      "number": 4,
+      "title": "Mark the position of the cap",
+      "description": "Place a mark on either side of the cap to ensure it is installed in the same position when reassembled.",
+      "frame_index": -1
+    },
+    {
+      "number": 5,
+      "title": "Remove the stator and rotor",
+      "description": "Use a large pipe wrench to loosen the stator and rotor from the housing. Use a leverage bar pipe to unscrew the stator and rotor.",
+      "frame_index": -1
+    },
+    {
+      "number": 6,
+      "title": "Slide out the stator and rotor",
+      "description": "Use a helper to slide the stator and rotor out of the housing assembly and set it on the ground.",
+      "frame_index": -1
+    },
+    {
+      "number": 7,
+      "title": "Check the seal on the connecting rod",
+      "description": "Verify that the seal on the end of the connecting rod is in place and not damaged.",
+      "frame_index": -1
+    },
+    {
+      "number": 8,
+      "title": "Inspect the connecting rod washer",
+      "description": "Check if the connecting rod washer is defective or not in place, which can cause corrosion and water seepage.",
+      "frame_index": 34100
+    }
+  ]
+}

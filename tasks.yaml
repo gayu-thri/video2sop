@@ -1,0 +1,12 @@
+tasks:
+  - id: pcp_disassembly
+    url: "https://www.youtube.com/watch?v=6Y2UDLAOgRI"
+    asset_name: "Progressive Cavity Pump"
+    activity_name: "Disassembly"
+    audio_mode: auto
+
+  - id: caps1200_inspection
+    url: "https://www.youtube.com/watch?v=v2OiMIUwzSM"
+    asset_name: "CAPS 1200 EL"
+    activity_name: "Visual Check and Periodic Inspection"
+    audio_mode: vision

@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "timestamp": 0.0,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_000.jpg"
+  },
+  {
+    "index": 1,
+    "timestamp": 5.014459621993127,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_001.jpg"
+  },
+  {
+    "index": 2,
+    "timestamp": 7.020243470790378,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_002.jpg"
+  },
+  {
+    "index": 3,
+    "timestamp": 20.057838487972507,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_003.jpg"
+  },
+  {
+    "index": 4,
+    "timestamp": 35.10121735395189,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_004.jpg"
+  },
+  {
+    "index": 5,
+    "timestamp": 42.121460824742265,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_005.jpg"
+  },
+  {
+    "index": 6,
+    "timestamp": 43.12435274914089,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_006.jpg"
+  },
+  {
+    "index": 7,
+    "timestamp": 45.13013659793814,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_007.jpg"
+  },
+  {
+    "index": 8,
+    "timestamp": 49.14170429553265,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_008.jpg"
+  },
+  {
+    "index": 9,
+    "timestamp": 56.161947766323024,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_009.jpg"
+  },
+  {
+    "index": 10,
+    "timestamp": 58.167731615120275,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_010.jpg"
+  },
+  {
+    "index": 11,
+    "timestamp": 64.18508316151203,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_011.jpg"
+  },
+  {
+    "index": 12,
+    "timestamp": 79.2284620274914,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_012.jpg"
+  },
+  {
+    "index": 13,
+    "timestamp": 83.2400297250859,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_013.jpg"
+  },
+  {
+    "index": 14,
+    "timestamp": 88.25448934707903,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_014.jpg"
+  },
+  {
+    "index": 15,
+    "timestamp": 91.2631651202749,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_015.jpg"
+  },
+  {
+    "index": 16,
+    "timestamp": 99.28630051546392,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_016.jpg"
+  },
+  {
+    "index": 17,
+    "timestamp": 112.32389553264605,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_017.jpg"
+  },
+  {
+    "index": 18,
+    "timestamp": 120.34703092783505,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_018.jpg"
+  },
+  {
+    "index": 19,
+    "timestamp": 142.4106532646048,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_019.jpg"
+  },
+  {
+    "index": 20,
+    "timestamp": 170.4916271477663,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_020.jpg"
+  },
+  {
+    "index": 21,
+    "timestamp": 178.5147625429553,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_021.jpg"
+  },
+  {
+    "index": 22,
+    "timestamp": 183.52922216494844,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_022.jpg"
+  },
+  {
+    "index": 23,
+    "timestamp": 193.55814140893472,
+    "image_path": "/Users/gayu/github/eqrx-ai-assessment-2/work/caps1200_inspection/frames/frame_023.jpg"
+  }
+]

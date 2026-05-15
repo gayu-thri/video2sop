@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "video2sop"
+version = "0.1.0"
+description = "Generate SOPs and work instructions from instructional videos using local ASR and Claude."
+authors = ["Gayathri Ethiraj <gethiraj@wisc.edu>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "video2sop", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+yt-dlp = ">=2025.1.15"
+faster-whisper = ">=1.1.0"
+opencv-python-headless = ">=4.10.0"
+numpy = ">=1.26.0"
+torch = ">=2.5.0"
+torchvision = ">=0.20.0"
+open-clip-torch = ">=2.24.0"
+pillow = ">=10.0.0"
+ollama = ">=0.4.0"
+pydantic = ">=2.6.0"
+python-dotenv = ">=1.0.0"
+pyyaml = ">=6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8.0.0"
+ruff = ">=0.6.0"
+
+[tool.poetry.scripts]
+video2sop = "video2sop.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
