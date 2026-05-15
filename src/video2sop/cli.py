@@ -14,13 +14,13 @@ def main(argv: list[str] | None = None) -> int:
     Entry point for the video2sop command.
 
     Parameters
-    ---------------
-    argv - `list[str] | None`
-            Command-line arguments; uses sys.argv if None
+    ----------
+    argv: `list[str] | None`
+        Command-line arguments; uses sys.argv if None
 
     Returns
-    ----------
-            Exit code: 0 on success, non-zero on failure
+    -------
+    Exit code: 0 on success, non-zero on failure
     """
     logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(message)s", datefmt="%H:%M:%S")
 
@@ -54,13 +54,13 @@ def _load_tasks(path: Path) -> list[Task]:
     Parses tasks.yaml into a list of Task objects.
 
     Parameters
-    ---------------
-    path - `Path`
-            Path to the YAML tasks file to read
+    ----------
+    path: `Path`
+        Path to the YAML tasks file to read
 
     Returns
-    ----------
-            List of Task objects ready to run
+    -------
+    List of Task objects ready to run
     """
     if not path.exists():
         raise SystemExit(f"Tasks file not found: {path}")

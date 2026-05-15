@@ -119,7 +119,7 @@ def run_task(task: Task, settings: Settings) -> TaskResult:
     )
     log.info("  %d steps", len(doc.steps))
 
-    if use_vision and keyframes:
+    if keyframes:
         doc = _fill_missing_frames(doc, keyframes)
 
     log.info("Rendering Markdown...")

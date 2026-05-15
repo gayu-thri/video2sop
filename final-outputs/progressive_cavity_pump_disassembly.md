@@ -1,57 +1,89 @@
-# Disassembly Instructions for Progressive Cavity Pump
+# Disassembly of Progressive Cavity Pump
 
 **Source:** https://www.youtube.com/watch?v=6Y2UDLAOgRI
 
 ## Overview
 
->This document provides step-by-step instructions for disassembling a Progressive Cavity Pump.
-
-**Important:** This document is intended for experienced technicians only. Follow all safety guidelines and precautions when working with electrical components and moving parts.
-
-
+Follow these steps to disassemble a progressive cavity pump.
 
 ## Steps
 
 ### Step 1. Remove the set plug for the drive pin
 
-Loosen the bolt that holds the set plug in place.
+Use the 916-pound wrench with a 1 1/2-inch drive socket to remove the set plug from the housing. Verify that the plug is completely removed.
 
-### Step 2. Screw out the hold-down plug
+![Step 1](progressive_cavity_pump_disassembly_images/frame_000.jpg)
 
-Loosen the bolts that hold the hold-down plug in place and remove it from the housing.
+*Frame at 0.0s.*
 
-### Step 3. Remove the alignment tool plug
+### Step 2. Remove the hold down plug
 
-Loosen the bolt that holds the alignment tool plug in place and remove it from the housing.
+Screw out the hold down plug from the other side of the housing and remove it with an alignment tool. Verify that the plug is completely removed.
 
-### Step 4. Remove the drive pin
+![Step 2](progressive_cavity_pump_disassembly_images/frame_003.jpg)
 
-Gently tap on the drive pin to loosen it, then remove it with your leveraged pipe for the pipe wrench.
+*Frame at 47.1s.*
 
-### Step 5. Remove the cap screws
+### Step 3. Remove the drive pin
 
-Use a 3-8 drive, 3-quarter inch socket to remove the cap screws from the housing.
+Use the 916-pound wrench with a 1 1/2-inch drive socket to remove the drive pin from the connecting rod. Verify that the pin is completely removed.
 
-### Step 6. Remove the cap
+![Step 3](progressive_cavity_pump_disassembly_images/frame_005.jpg)
 
-Carefully pull out the cap and set it aside.
+*Frame at 65.1s.*
 
-### Step 7. Mark the position of the cap
+### Step 4. Remove the cap screws
 
-Leave a mark on the side of the cap or the side of the housing to ensure the cap is properly reassembled.
+Use the 3-8 drive, 3/4-inch socket to remove the cap screws from the housing. Verify that all screws are completely removed.
 
-### Step 8. Remove the stator and rotor as one piece from the housing
+![Step 4](progressive_cavity_pump_disassembly_images/frame_008.jpg)
 
-Use a large pipe wrench to secure it tightly, then use a leverage bar pipe to unscrew the stator and rotor from the housing.
+*Frame at 105.2s.*
 
-### Step 9. Slide out the stator and rotor with assistance
+### Step 5. Remove the cap
 
-Have a helper slide the stator and rotor out of the housing assembly once it starts to turn easily.
+Take off the cap and mark its position on the side of the housing or cap, so it can be put back in place correctly. Verify that the cap is removed.
 
-### Step 10. Remove the connecting rod washer
+![Step 5](progressive_cavity_pump_disassembly_images/frame_010.jpg)
 
-Carefully pull out the connecting rod washer and set it aside.
+*Frame at 122.2s.*
 
-### Step 11. Inspect for damage or defects
+### Step 6. Remove the stator and rotor
 
-Verify that the connecting rod washer is in good condition and properly seated on the end of the connecting rod.
+Use a large pipe wrench to secure it tightly on the stator, then use a leverage bar pipe with the pipe wrench to unscrew the stator and rotor from the housing. Verify that the stator and rotor are completely removed.
+
+![Step 6](progressive_cavity_pump_disassembly_images/frame_008.jpg)
+
+*Frame at 105.2s.*
+
+### Step 7. Remove the stator and rotor from the housing assembly
+
+Use a helper to slide the stator and rotor out of the housing assembly and set it on the ground. Verify that the stator and rotor are removed.
+
+![Step 7](progressive_cavity_pump_disassembly_images/frame_015.jpg)
+
+*Frame at 195.3s.*
+
+### Step 8. Check the connecting rod washer
+
+Verify that the seal on the end of the connecting rod is in place and the connecting rod washer is not damaged. Verify that the washer is present.
+
+![Step 8](progressive_cavity_pump_disassembly_images/frame_018.jpg)
+
+*Frame at 316.5s.*
+
+### Step 9. Check for corrosion
+
+Verify that there is no corrosion on the end of the pin and the main shaft cavity. Verify that there are no signs of water seepage around the collar or plugs.
+
+![Step 9](progressive_cavity_pump_disassembly_images/frame_020.jpg)
+
+*Frame at 328.5s.*
+
+### Step 10. Clean and prepare for reassembly
+
+Clean the housing assembly and connecting rod to ensure a proper seal when reassembling. Verify that all components are clean and free of debris.
+
+![Step 10](progressive_cavity_pump_disassembly_images/frame_023.jpg)
+
+*Frame at 339.5s.*

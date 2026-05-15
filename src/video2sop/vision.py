@@ -69,9 +69,13 @@ def describe_frames(
                     "content": (
                         f"This is keyframe {kf.index} at t={kf.timestamp:.1f}s from a video "
                         f"showing '{activity_name}' on a '{asset_name}'. "
-                        f"Write 1-2 sentences describing what the technician is doing "
-                        f"or what state the equipment is in. Focus on observable actions, "
-                        f"tools, and components. Do not invent anything not visible."
+                        f"Describe what you observe in 3-5 sentences covering: "
+                        f"(1) what the technician is doing or what state the equipment is in, "
+                        f"(2) any visible tools, instruments, or fasteners being used, "
+                        f"(3) specific components, gauges, or indicators visible and their "
+                        f"apparent readings or positions, "
+                        f"(4) any observable change from a prior state if apparent. "
+                        f"Be specific and factual. Do not invent anything not visible."
                     ),
                     "images": [str(kf.image_path)],
                 }

@@ -1,71 +1,65 @@
 {
-  "title": "Disassembly Instructions for Progressive Cavity Pump",
-  "overview": ">This document provides step-by-step instructions for disassembling a Progressive Cavity Pump.\n\n**Important:** This document is intended for experienced technicians only. Follow all safety guidelines and precautions when working with electrical components and moving parts.\n\n",
+  "title": "Disassembly of Progressive Cavity Pump",
+  "overview": "Follow these steps to disassemble a progressive cavity pump.",
   "steps": [
     {
       "number": 1,
       "title": "Remove the set plug for the drive pin",
-      "description": "Loosen the bolt that holds the set plug in place.",
+      "description": "Use the 916-pound wrench with a 1 1/2-inch drive socket to remove the set plug from the housing. Verify that the plug is completely removed.",
       "frame_index": -1
     },
     {
       "number": 2,
-      "title": "Screw out the hold-down plug",
-      "description": "Loosen the bolts that hold the hold-down plug in place and remove it from the housing.",
+      "title": "Remove the hold down plug",
+      "description": "Screw out the hold down plug from the other side of the housing and remove it with an alignment tool. Verify that the plug is completely removed.",
       "frame_index": -1
     },
     {
       "number": 3,
-      "title": "Remove the alignment tool plug",
-      "description": "Loosen the bolt that holds the alignment tool plug in place and remove it from the housing.",
+      "title": "Remove the drive pin",
+      "description": "Use the 916-pound wrench with a 1 1/2-inch drive socket to remove the drive pin from the connecting rod. Verify that the pin is completely removed.",
       "frame_index": -1
     },
     {
       "number": 4,
-      "title": "Remove the drive pin",
-      "description": "Gently tap on the drive pin to loosen it, then remove it with your leveraged pipe for the pipe wrench.",
+      "title": "Remove the cap screws",
+      "description": "Use the 3-8 drive, 3/4-inch socket to remove the cap screws from the housing. Verify that all screws are completely removed.",
       "frame_index": -1
     },
     {
       "number": 5,
-      "title": "Remove the cap screws",
-      "description": "Use a 3-8 drive, 3-quarter inch socket to remove the cap screws from the housing.",
-      "frame_index": 13150
-    },
-    {
-      "number": 6,
       "title": "Remove the cap",
-      "description": "Carefully pull out the cap and set it aside.",
+      "description": "Take off the cap and mark its position on the side of the housing or cap, so it can be put back in place correctly. Verify that the cap is removed.",
       "frame_index": -1
     },
     {
+      "number": 6,
+      "title": "Remove the stator and rotor",
+      "description": "Use a large pipe wrench to secure it tightly on the stator, then use a leverage bar pipe with the pipe wrench to unscrew the stator and rotor from the housing. Verify that the stator and rotor are completely removed.",
+      "frame_index": 8
+    },
+    {
       "number": 7,
-      "title": "Mark the position of the cap",
-      "description": "Leave a mark on the side of the cap or the side of the housing to ensure the cap is properly reassembled.",
-      "frame_index": 15408
+      "title": "Remove the stator and rotor from the housing assembly",
+      "description": "Use a helper to slide the stator and rotor out of the housing assembly and set it on the ground. Verify that the stator and rotor are removed.",
+      "frame_index": -1
     },
     {
       "number": 8,
-      "title": "Remove the stator and rotor as one piece from the housing",
-      "description": "Use a large pipe wrench to secure it tightly, then use a leverage bar pipe to unscrew the stator and rotor from the housing.",
-      "frame_index": 17867
+      "title": "Check the connecting rod washer",
+      "description": "Verify that the seal on the end of the connecting rod is in place and the connecting rod washer is not damaged. Verify that the washer is present.",
+      "frame_index": -1
     },
     {
       "number": 9,
-      "title": "Slide out the stator and rotor with assistance",
-      "description": "Have a helper slide the stator and rotor out of the housing assembly once it starts to turn easily.",
+      "title": "Check for corrosion",
+      "description": "Verify that there is no corrosion on the end of the pin and the main shaft cavity. Verify that there are no signs of water seepage around the collar or plugs.",
       "frame_index": -1
     },
     {
       "number": 10,
-      "title": "Remove the connecting rod washer",
-      "description": "Carefully pull out the connecting rod washer and set it aside.",
-      "frame_index": -1
-    },
-    {
-      "number": 11,
-      "title": "Inspect for damage or defects",
-      "description": "Verify that the connecting rod washer is in good condition and properly seated on the end of the connecting rod.",
+      "title": "Clean and prepare for reassembly",
+      "description": "Clean the housing assembly and connecting rod to ensure a proper seal when reassembling. Verify that all components are clean and free of debris.",
       "frame_index": -1
     }
   ]
