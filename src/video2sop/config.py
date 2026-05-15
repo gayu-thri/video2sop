@@ -50,6 +50,6 @@ def load_settings() -> Settings:
         clip_device=device,
         sample_fps=1.0,
         max_keyframes=24,
-        workdir=Path("work").resolve(),
-        outdir=Path("output").resolve(),
+        workdir=Path("intermediate-outputs").resolve(),
+        outdir=Path("final-outputs").resolve(),
     )

@@ -1,0 +1,72 @@
+{
+  "title": "Disassembly Instructions for Progressive Cavity Pump",
+  "overview": ">This document provides step-by-step instructions for disassembling a Progressive Cavity Pump.\n\n**Important:** This document is intended for experienced technicians only. Follow all safety guidelines and precautions when working with electrical components and moving parts.\n\n",
+  "steps": [
+    {
+      "number": 1,
+      "title": "Remove the set plug for the drive pin",
+      "description": "Loosen the bolt that holds the set plug in place.",
+      "frame_index": -1
+    },
+    {
+      "number": 2,
+      "title": "Screw out the hold-down plug",
+      "description": "Loosen the bolts that hold the hold-down plug in place and remove it from the housing.",
+      "frame_index": -1
+    },
+    {
+      "number": 3,
+      "title": "Remove the alignment tool plug",
+      "description": "Loosen the bolt that holds the alignment tool plug in place and remove it from the housing.",
+      "frame_index": -1
+    },
+    {
+      "number": 4,
+      "title": "Remove the drive pin",
+      "description": "Gently tap on the drive pin to loosen it, then remove it with your leveraged pipe for the pipe wrench.",
+      "frame_index": -1
+    },
+    {
+      "number": 5,
+      "title": "Remove the cap screws",
+      "description": "Use a 3-8 drive, 3-quarter inch socket to remove the cap screws from the housing.",
+      "frame_index": 13150
+    },
+    {
+      "number": 6,
+      "title": "Remove the cap",
+      "description": "Carefully pull out the cap and set it aside.",
+      "frame_index": -1
+    },
+    {
+      "number": 7,
+      "title": "Mark the position of the cap",
+      "description": "Leave a mark on the side of the cap or the side of the housing to ensure the cap is properly reassembled.",
+      "frame_index": 15408
+    },
+    {
+      "number": 8,
+      "title": "Remove the stator and rotor as one piece from the housing",
+      "description": "Use a large pipe wrench to secure it tightly, then use a leverage bar pipe to unscrew the stator and rotor from the housing.",
+      "frame_index": 17867
+    },
+    {
+      "number": 9,
+      "title": "Slide out the stator and rotor with assistance",
+      "description": "Have a helper slide the stator and rotor out of the housing assembly once it starts to turn easily.",
+      "frame_index": -1
+    },
+    {
+      "number": 10,
+      "title": "Remove the connecting rod washer",
+      "description": "Carefully pull out the connecting rod washer and set it aside.",
+      "frame_index": -1
+    },
+    {
+      "number": 11,
+      "title": "Inspect for damage or defects",
+      "description": "Verify that the connecting rod washer is in good condition and properly seated on the end of the connecting rod.",
+      "frame_index": -1
+    }
+  ]
+}

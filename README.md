@@ -18,12 +18,12 @@ URL at a time.
 
 You need ffmpeg and Ollama on the system. No API key needed.
 
-```
-brew install ffmpeg
-curl -fsSL https://ollama.com/install.sh | sh
-ollama pull llama3.2
-ollama pull llava
-poetry install
+```bash
+$ brew install ffmpeg
+$ curl -fsSL https://ollama.com/install.sh | sh
+$ ollama pull llama3.2
+$ ollama pull llava
+$ poetry install
 ```
 
 `llama3.2` is used for writing the work instruction. `llava` is used for
@@ -32,18 +32,30 @@ If the video has a clear spoken commentary, only `llama3.2` is needed.
 
 ## Running it
 
-```
-poetry run video2sop
+```bash
+$ poetry run video2sop
 ```
 
-Processes every task in `tasks.yaml`. Output Markdown files land in `output/`.
+Processes every task in `tasks.yaml`. Output Markdown files land in `final-outputs/`.
 
 Each task must be a direct video URL (`watch?v=...`). Channel or playlist URLs
 are not supported.
 
+## Sample outputs
+
+Pre-generated outputs are committed under `final-outputs/` so you can inspect the
+results without running the pipeline yourself.
+
+- **`progressive_cavity_pump_disassembly.md`**: Work instruction for the Progressive Cavity Pump
+  disassembly. Built from the Whisper transcript, so steps are grounded in what the technician
+  says verbatim: tool sizes, part names, and actions.
+- **`caps_1200_el_visual_check_and_periodic_inspection.md`**: Work instruction for the CAPS 1200 EL
+  visual inspection. Built from llava keyframe descriptions (silent video), with screenshots
+  embedded inline for each step.
+
 ## How it works
 
-There are five stages. Each one writes its result to `work/<task_id>/` and
+There are five stages. Each one writes its result to `intermediate-outputs/<task_id>/` and
 short-circuits on re-run, so iterating is cheap.
 
 ```
@@ -97,8 +109,8 @@ src/video2sop/
   vision.py             llava vision, one call per frame
   sop_generator.py      llama3.2 JSON mode, returns Pydantic-validated JSON
   document.py           Markdown renderer
-work/                   cached intermediates
-output/                 final Markdown files
+intermediate-outputs/   cached intermediates
+final-outputs/          final Markdown files
 ```
 
 ## Known limits
