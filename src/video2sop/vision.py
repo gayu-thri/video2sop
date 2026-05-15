@@ -67,15 +67,19 @@ def describe_frames(
                 {
                     "role": "user",
                     "content": (
-                        f"This is keyframe {kf.index} at t={kf.timestamp:.1f}s from a video "
-                        f"showing '{activity_name}' on a '{asset_name}'. "
-                        f"Describe what you observe in 3-5 sentences covering: "
-                        f"(1) what the technician is doing or what state the equipment is in, "
-                        f"(2) any visible tools, instruments, or fasteners being used, "
-                        f"(3) specific components, gauges, or indicators visible and their "
-                        f"apparent readings or positions, "
-                        f"(4) any observable change from a prior state if apparent. "
-                        f"Be specific and factual. Do not invent anything not visible."
+                        f"You are extracting inspection data from a maintenance video frame "
+                        f"(frame {kf.index}, t={kf.timestamp:.1f}s) of a '{asset_name}' "
+                        f"undergoing '{activity_name}'.\n\n"
+                        f"Answer these questions based strictly on what is visible:\n"
+                        f"- Which specific component or area is in focus?\n"
+                        f"- What is the visible condition: surface state, colour changes, "
+                        f"corrosion, leaks, cracks, misalignment, or wear?\n"
+                        f"- Are any gauges, labels, indicators, or nameplates visible? "
+                        f"If so, what do they show?\n"
+                        f"- Is a technician performing an action? If so, what exactly?\n\n"
+                        f"Write 3-5 factual sentences. Do not describe this as an image. "
+                        f"Do not say 'the image shows' or 'it appears'. "
+                        f"Do not invent details not visible in the frame."
                     ),
                     "images": [str(kf.image_path)],
                 }

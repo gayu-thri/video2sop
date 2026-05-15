@@ -1,36 +1,48 @@
 {
-  "title": "Industrial Equipment Inspection",
-  "overview": "The provided images depict various stages of an industrial equipment inspection process, with a focus on visual checks and periodic maintenance activities.",
+  "title": "Visual Check and Periodic Inspection",
+  "overview": "Inspect the CAPS 1200 EL for signs of wear, corrosion, leaks, cracks, misalignment, or damage.",
   "steps": [
     {
       "number": 1,
-      "title": "Inspecting the Pump",
-      "description": "The first image shows a close-up view of a large green pump. The technician appears to be examining the pump's condition, but no tools or instruments are visible in use.",
-      "frame_index": 19
+      "title": "Step 1: Inspect the valve seat and stem for scoring, corrosion, or uneven wear.",
+      "description": "Check the valve seat and stem for signs of scoring, corrosion, or uneven wear. The valve should be clean and free from debris.",
+      "frame_index": -1
     },
     {
       "number": 2,
-      "title": "Checking the Valve",
-      "description": "The second image shows a close-up view of a valve or cap on a metal container. The technician is likely checking the valve's condition and ensuring it is properly closed.",
-      "frame_index": 21
+      "title": "Step 2: Inspect the pump stage for accumulation of contaminants or corrosive substances.",
+      "description": "Check the pump stage for accumulation of reddish-orange substance, which could indicate corrosion or buildup of contaminants. The surface should be clean and free from debris.",
+      "frame_index": -1
     },
     {
       "number": 3,
-      "title": "Inspecting the Tank",
-      "description": "The third image shows a close-up view of a large metal container or tank. The technician appears to be examining the tank's condition, including signs of age or weathering.",
-      "frame_index": 23
+      "title": "Step 3: Inspect the engine for signs of wear, corrosion, or leaks.",
+      "description": "Check the engine for signs of rust formation, oil leaks, or excessive wear. The surface should be clean and free from debris.",
+      "frame_index": -1
     },
     {
       "number": 4,
-      "title": "Verifying the Equipment",
-      "description": "The fourth image shows a screenshot of a video frame with text overlayed on it. The technician is likely verifying that the equipment is properly secured and in working order.",
-      "frame_index": 20
+      "title": "Step 4: Inspect the hydraulic filters for proper installation and condition.",
+      "description": "Check the hydraulic filters for proper installation, cleanliness, and condition. The filters should be free from debris and damage.",
+      "frame_index": -1
     },
     {
       "number": 5,
-      "title": "Final Inspection",
-      "description": "The final image shows a close-up view of an industrial setting with mechanical components. The technician appears to be performing a final inspection, but no tools or instruments are visible in use.",
-      "frame_index": 18
+      "title": "Step 5: Inspect the valve for proper operation and gauge readings.",
+      "description": "Check the valve gauges for proper operation, cleanliness, and condition. The gauges should be accurate and free from debris.",
+      "frame_index": -1
+    },
+    {
+      "number": 6,
+      "title": "Step 6: Check the hydraulic fluid level indicator for proper installation and condition.",
+      "description": "Check the hydraulic fluid level indicator for proper installation, cleanliness, and condition. The indicator should be accurate and free from debris.",
+      "frame_index": -1
+    },
+    {
+      "number": 7,
+      "title": "Step 7: Inspect the machine components for signs of wear, corrosion, or damage.",
+      "description": "Check the machine components for signs of rust formation, oxidation, or excessive wear. The surface should be clean and free from debris.",
+      "frame_index": -1
     }
   ]
 }

@@ -126,23 +126,29 @@ def _build_prompt(
     Formatted prompt string ready to send to the model
     """
     parts: list[str] = [
-        f"You are a technical writer. Convert the source material below into a "
-        f"detailed work instruction for performing '{activity_name}' on a '{asset_name}'.",
+        f"You are a senior technical writer producing a maintenance manual.",
+        f"Your task: write a professional work instruction for '{activity_name}' on a '{asset_name}'.",
+        f"The output must read like a real maintenance SOP, not a description of a video.",
         "",
-        "Rules:",
-        "- CRITICAL: Write every step title and description in direct imperative voice addressed to the technician.",
-        "  WRONG: 'The technician inspects the valve assembly for signs of wear.'",
-        "  RIGHT: 'Inspect the valve assembly for signs of wear or damage on the seating surface and stem.'",
-        "  Never use 'the technician', 'the operator', or any third-person phrasing.",
-        "- Each step should be a single discrete action a technician can verify.",
-        "- Write step descriptions of 2-4 sentences: state the action, name the specific component or "
-        "  location, describe what to look for or verify, and note the expected outcome where determinable.",
-        "- Only include information supported by the source material.",
-        "- For each step, set frame_index to the keyframe index that best illustrates it (use -1 if nothing fits).",
-        "- Order steps to match the temporal order of the video.",
-        "- Aim for 6-15 steps.",
+        "CRITICAL RULES — violations will make the output unusable:",
+        "1. Every title and description must be direct imperative voice addressed to the person performing the work.",
+        "   WRONG: 'The technician inspects the valve for wear.'",
+        "   RIGHT:  'Inspect the valve seat and stem for scoring, corrosion, or uneven wear.'",
+        "   Never write 'the technician', 'the operator', 'the image shows', or any third-person phrasing.",
+        "2. Do not reference frames, images, screenshots, or the video in step text.",
+        "3. Each step: one discrete, verifiable action.",
+        "4. Step description must be 2-4 sentences covering:",
+        "   a) the specific action and component (use the component name from the source material),",
+        "   b) what to check, measure, or observe,",
+        "   c) the acceptance criterion or expected condition (e.g. 'no cracks', 'indicator in green range'),",
+        "   d) what to do if the condition is not met, where determinable from the source material.",
+        "5. Only include information supported by the source material.",
+        "6. For each step, set frame_index to the keyframe index that best illustrates it (use -1 if nothing fits).",
+        "7. Order steps in the sequence a technician would follow.",
+        "8. Aim for 8-15 steps.",
         "",
-        f"Source video: {source_url}",
+        f"Equipment: {asset_name}",
+        f"Activity: {activity_name}",
         "",
     ]
 
@@ -157,7 +163,12 @@ def _build_prompt(
         for fd in frame_descriptions:
             parts.append(f"Frame {fd.index} @ t={fd.timestamp:.1f}s: {fd.description}")
     else:
-        parts.append("=== AVAILABLE KEYFRAMES (align by timestamp) ===")
+        parts.append("=== AVAILABLE KEYFRAMES ===")
+        parts.append(
+            "To assign frame_index for each step: identify the transcript timestamp range "
+            "that corresponds to the step, then pick the keyframe whose timestamp falls "
+            "closest to the midpoint of that range."
+        )
         for kf in keyframes:
             parts.append(f"Frame {kf.index} @ t={kf.timestamp:.1f}s")
     parts.append("")
